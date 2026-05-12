@@ -1,0 +1,15 @@
+{
+  "module_name": "Sediment Connectivity Bridge Test",
+  "short_name": "connectivity_bridge_test",
+  "version": "0.1.0",
+  "status": "technical-smoke-test",
+  "purpose": "Validate import and invocation from QSWATPlus IGP without exposing scientific runner",
+  "public_api": [
+    "get_module_info",
+    "test_import",
+    "open_connectivity_dialog"
+  ],
+  "requires_qgis": true,
+  "runs_scientific_engine": false
+}
+
